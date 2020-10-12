@@ -1,0 +1,6 @@
+#!/usr/bin/env python
+
+from follow_waypoints import smach_tutorials
+
+if __name__ == '__main__':
+    smach_tutorials.main()

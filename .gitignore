@@ -1,0 +1,8 @@
+# *.pyc
+# *.swp
+# *.swo
+waypoints/.clangd/*
+waypoints/.vscode
+build_isolated
+waypoints/compile_commands.json
+devel_isolated
