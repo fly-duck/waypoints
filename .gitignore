@@ -7,5 +7,5 @@ waypoints/.vscode
 build_isolated
 waypoints/compile_commands.json
 compile_commands.json
-
+*.clangd*
 devel_isolated
