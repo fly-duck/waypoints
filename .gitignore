@@ -1,6 +1,7 @@
 # *.pyc
 # *.swp
 # *.swo
+waypoints/todolist.md
 waypoints/.clangd/*
 waypoints/.vscode
 build_isolated
