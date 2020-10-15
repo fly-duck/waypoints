@@ -1,6 +1,7 @@
 # *.pyc
 # *.swp
 # *.swo
+rviz_plugin_tutorials
 waypoints/todolist.md
 waypoints/.clangd/*
 waypoints/.vscode

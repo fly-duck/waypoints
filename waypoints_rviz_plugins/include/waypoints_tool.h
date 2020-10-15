@@ -4,9 +4,7 @@
 #include <rviz/tool.h>
 
 
-namespace Waypoints_Plugin {
     
-using namespace Waypoints_Plugin;
 namespace Ogre
 {
 class SceneNode;
@@ -20,6 +18,7 @@ class VisualizationManager;
 class ViewportMouseEvent;
 }
     
+namespace Waypoints_Plugin {
 class StarTool: public ::rviz::Tool
 {
 Q_OBJECT
@@ -38,8 +37,11 @@ public:
   virtual void save( ::rviz::Config config ) const;
 
 private:
-    
+  std::string tool_resource_; 
   std::vector<Ogre::SceneNode*> flag_nodes_;
+ ::Ogre::SceneNode* moving_flag_node_;
+  std::string flag_resource_;
+  rviz::VectorProperty* current_flag_property_;
 };
 
 }
